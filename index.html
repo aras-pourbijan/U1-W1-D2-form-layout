@@ -4,7 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopi come iniziare in modo facile."
+    />
+
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
   </head>
-  <body></body>
+
+  <body>
+    <header>
+      <div><img src="./assets/img/logo.svg" alt="Epicode" width="100px" /></div>
+      <div><p>Epicode - Il blog dei developers</p></div>
+    </header>
+
+    <nav>
+      <button>Home</button>
+      <button>Articoli</button>
+      <button>Job</button>
+    </nav>
+
+    <main>
+      <div>
+        <h2>di <a href="http://">Mario Rossi</a> - publicato il 25-10-2020</h2>
+        <h1>Come Creare un templare per i post</h1>
+      </div>
+      <p>
+        La prima cosa da fare è suddividre in blocchi logicila pagina,
+        indentificare le parti comuni da applicare a tutte le pagine
+      </p>
+
+      <div>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>Contenuti di intestaqzione del tag <code>&ltheader&gt</code></li>
+          <li>
+            Contenuti centrali variabili del tag
+            <code>&ltmain&gt</code> (corpo principae)
+          </li>
+          <li>
+            Contenuti di fine pagina comuni, da inserire nel tag
+            <code>&ltfooter&gt</code>
+          </li>
+          <li>Formazione del codice</li>
+        </ul>
+      </div>
+
+      <div>
+        <p>
+          Il Testo dellarticolo dovrà essere formattato per identificare tutte
+          le parti da selezionare con i CSS. Pericò i passi saranno:
+        </p>
+        <ul>
+          <li>
+            Progettare su carta il markup finale, assegnando ad ogni specifico
+            testo il tag appropriato
+          </li>
+          <li>
+            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
+            il basso
+          </li>
+          <li>Applicare gli stili CSS</li>
+          <li>
+            L'applicazione di stili CSS è cresciuta negli anni fino a
+            raggiungere la diffusione pressoché totale.
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
