@@ -1,10 +1,9 @@
 header{
+    background-color: gray;
     display: flex;
     justify-content:space-around
     align-items: center;
     font-size: 1.2em;
-    back
-
 }
 
 #site-name{
@@ -18,11 +17,11 @@ nav{
     justify-content:space-evenly;
     background-color: black;
     color: white;
+    margin-bottom: 0%;
 }
 
 main{
-   
-    background-color: beige;
+       background-color: beige;
 }
 
 h2{
@@ -35,3 +34,4 @@ h2{
     margin-top: 0%;
     padding-top: 0%;
 }
+
