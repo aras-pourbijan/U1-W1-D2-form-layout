@@ -5,3 +5,29 @@ header{
     font-size: 1.2em
 
 }
+
+#site-name{
+font-weight: 800;
+font-size: 130%;
+padding-left: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+main{
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 80%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#title{
+    margin-top: 0%;
+    padding-top: 0%;
+}
